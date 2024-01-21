@@ -65,20 +65,13 @@ client.on("message", msg => {
     msg.reply("https://discord.com/api/oauth2/authorize?client_id=862348917098283058&permissions=8&scope=bot")
   }
 })
-client.on("message", msg => {
-  if(msg.content === "$yt"){
-    msg.reply("Subscribe to this legendary youtuber !!    https://www.youtube.com/channel/UCKGhP5D5l5UriOde9tGR8qA")
-  }
-})
+
 client.on("message", msg => {
   if(msg.content === "$hello"){
     msg.reply("```hello , how are you doing```")
   }
 })
-client.on("message", msg => {
-  if(msg.content === "$shreetika"){
-    msg.reply("shreetika is the sister of the developer of this bot ")
-  }
+
 })
 client.on("message", msg => {
   if(msg.author.bot) return
